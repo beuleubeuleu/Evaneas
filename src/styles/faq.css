@@ -42,7 +42,7 @@ span {
 button img {
     width: 20px;
 }
-button {
+.faq button {
     border: none;
     background-color: var(--first);
     transition: 0.33s;
