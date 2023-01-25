@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
 
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -10,13 +9,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/recherche.css">
+    <link rel="stylesheet" href="styles/valeurs.css">
+    <link rel="stylesheet" href="styles/article.css">
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/faq.css">
     <title>Evaneas</title>
   </head>
 
 	<body>
 		<header>
 			<div id="navigation">
-				<ul>
+				<ul class="nav-link">
 					<li><a href="#">Evaneas</a></li>
 					<li><a href="#">Destination</a></li>
 					<li><a href="#"></a>Voyage</li>
@@ -35,6 +39,133 @@
 					placeholder="Où allons-nous ?" />
 			</label>
 		</section>
+
+    <section class="valeurs">
+      <div class="valeur__container">
+        <h2 class="valeur__container--title">Plus responsable</h2>
+        <p class="valeur__containeur--text">Choisissons de voyager mieux en ayant un impact positif sur les milieu naturel</p>
+      </div>
+      <div class="valeur__container">
+        <h2 class="valeur__container--title">Local</h2>
+        <p class="valeur__containeur--text">Co-créez un voyage en direct avec une agence locale passioné et rigoureusement selectionner</p>
+      </div>
+      <div class="valeur__container">
+        <h2 class="valeur__container--title">Unique et Authentique</h2>
+        <p class="valeur__containeur--text">Profitez d’un service exceptionnel et d’une expertise Hors-pair.</p>
+      </div>
+    </section>
+    
+        <div class="articles">
+        <!-- Div 1 -->
+        <div class="article1">
+            <h2>
+                Top Destinations 2023
+            </h2>
+            <p>
+                Un guide co-cree avec nos experts et expertes locales
+            </p>
+
+            <a href="article-destination.html">
+                <div>
+                   <button> Decouvrir</button>
+                    
+                </div>
+            </a>
+            
+        </div>
+
+        <!-- Div 2 -->  
+        <div class="article2">
+            <h2>
+                Better Trips: un autre voyage est possible
+            </h2>
+            <p>
+                Notre vision, nos engagements
+            </p>
+            <a href="#">
+                <div>
+                    <button> Decouvrir</button>
+                </div>
+            </a>
+        </div>
+
+        <!-- Div 3 -->
+        <div class="article3">
+            <h2>
+                Evaneas certifie B Corp
+            </h2>
+            <p>
+                La reconnaissance de notre impact positif
+            </p>
+            <a href="#">
+                <div>
+                    <button> Decouvrir</button>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+        <div class="container-faq">
+            <section class="faq">
+                <h4>Questions Fréquentes</h4>
+                <ul>
+                    <li class="questions">
+                        <div class="question">
+                            <p>Qui est Evaneos ?</p>
+                            <button>
+                                <img src="../icons/ChevronUp.png" alt="icon-down" />
+                            </button>
+                        </div>
+                        <span class="myDropDown" id="myDropDown">
+                            Evaneos vous permet d'organiser votre voyage avec l'une de nos
+                            agences de voyage locales partenaire. Basées à destination, elles
+                            vous proposent des voyages sur-mesure pour vivre des expériences
+                            authentiques et hors des sentiers battus. Véritable tiers de
+                            confiance, Evaneos sélectionne les meilleures agences locales et
+                            vous propose une expérience fluide et sécurisée avant, pendant et
+                            après votre voyage.
+                        </span>
+                    </li>
+    
+                    <li class="questions">
+                        <div class="question">
+                            <p>Quelles sont les garanties Evaneos ?</p>
+                            <button>
+                                <img src="../icons/ChevronUp.png" alt="icon-down" />
+                            </button>
+                        </div>
+                        <span class="myDropDown" id="myDropDown">
+                            Evaneos vous permet d'organiser votre voyage avec l'une de nos
+                            agences de voyage locales partenaire. Basées à destination, elles
+                            vous proposent des voyages sur-mesure pour vivre des expériences
+                            authentiques et hors des sentiers battus. Véritable tiers de
+                            confiance, Evaneos sélectionne les meilleures agences locales et
+                            vous propose une expérience fluide et sécurisée avant, pendant et
+                            après votre voyage.
+                        </span>
+                    </li>
+    
+                    <li class="questions">
+                        <div class="question">
+                            <p>Comment sont sélectionnées nos agences locales partenaires ?</p>
+                            <button>
+                                <img src="../icons/ChevronUp.png" alt="icon-down" />
+                            </button>
+                        </div>
+                        <span class="myDropDown" id="myDropDown">
+                            Evaneos vous permet d'organiser votre voyage avec l'une de nos
+                            agences de voyage locales partenaire. Basées à destination, elles
+                            vous proposent des voyages sur-mesure pour vivre des expériences
+                            authentiques et hors des sentiers battus. Véritable tiers de
+                            confiance, Evaneos sélectionne les meilleures agences locales et
+                            vous propose une expérience fluide et sécurisée avant, pendant et
+                            après votre voyage.
+                        </span>
+                    </li>
+                </ul>
+            </section>
+        </div>
 
     <footer>
       <ul class="footerText">
@@ -68,5 +199,8 @@
       </div>
       <p class="copyright">© Evaneas</p>
     </footer>
+    
+    <script src="../src/scripts/faq.js"></script>
   </body>
+
 </html>
