@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+img {
+    max-width: 100%;
+}
+  
+:root {
+    --primary: #FFF;
+    --secondary: #000;
+    --third: #D9D9D9;
+}
+
+.sectionDestination {
+    padding: 30px 30px;
+    line-height: 25px;
+}
+.text {
+    padding-left: 70px;
+}
+
+.mainDiv {
+    display: flex;
+    width: 100%;
+    
+    gap: 100px;
+    overflow-x: scroll; 
+    padding: 30px 0 ;
+    
+}
+
+.destination {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    background: var(--third);
+}
+
+
