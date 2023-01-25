@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8" />
     <meta
@@ -10,13 +12,15 @@
     <link rel="stylesheet" href="styles/recherche.css">
     <link rel="stylesheet" href="styles/valeurs.css">
     <link rel="stylesheet" href="styles/article.css">
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/faq.css">
     <title>Evaneas</title>
   </head>
 
 	<body>
 		<header>
 			<div id="navigation">
-				<ul>
+				<ul class="nav-link">
 					<li><a href="#">Evaneas</a></li>
 					<li><a href="#">Destination</a></li>
 					<li><a href="#"></a>Voyage</li>
@@ -101,6 +105,68 @@
         </div>
     </div>
 
+
+        <div class="container-faq">
+            <section class="faq">
+                <h4>Questions Fréquentes</h4>
+                <ul>
+                    <li class="questions">
+                        <div class="question">
+                            <p>Qui est Evaneos ?</p>
+                            <button>
+                                <img src="../icons/ChevronUp.png" alt="icon-down" />
+                            </button>
+                        </div>
+                        <span class="myDropDown" id="myDropDown">
+                            Evaneos vous permet d'organiser votre voyage avec l'une de nos
+                            agences de voyage locales partenaire. Basées à destination, elles
+                            vous proposent des voyages sur-mesure pour vivre des expériences
+                            authentiques et hors des sentiers battus. Véritable tiers de
+                            confiance, Evaneos sélectionne les meilleures agences locales et
+                            vous propose une expérience fluide et sécurisée avant, pendant et
+                            après votre voyage.
+                        </span>
+                    </li>
+    
+                    <li class="questions">
+                        <div class="question">
+                            <p>Quelles sont les garanties Evaneos ?</p>
+                            <button>
+                                <img src="../icons/ChevronUp.png" alt="icon-down" />
+                            </button>
+                        </div>
+                        <span class="myDropDown" id="myDropDown">
+                            Evaneos vous permet d'organiser votre voyage avec l'une de nos
+                            agences de voyage locales partenaire. Basées à destination, elles
+                            vous proposent des voyages sur-mesure pour vivre des expériences
+                            authentiques et hors des sentiers battus. Véritable tiers de
+                            confiance, Evaneos sélectionne les meilleures agences locales et
+                            vous propose une expérience fluide et sécurisée avant, pendant et
+                            après votre voyage.
+                        </span>
+                    </li>
+    
+                    <li class="questions">
+                        <div class="question">
+                            <p>Comment sont sélectionnées nos agences locales partenaires ?</p>
+                            <button>
+                                <img src="../icons/ChevronUp.png" alt="icon-down" />
+                            </button>
+                        </div>
+                        <span class="myDropDown" id="myDropDown">
+                            Evaneos vous permet d'organiser votre voyage avec l'une de nos
+                            agences de voyage locales partenaire. Basées à destination, elles
+                            vous proposent des voyages sur-mesure pour vivre des expériences
+                            authentiques et hors des sentiers battus. Véritable tiers de
+                            confiance, Evaneos sélectionne les meilleures agences locales et
+                            vous propose une expérience fluide et sécurisée avant, pendant et
+                            après votre voyage.
+                        </span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
     <footer>
       <ul class="footerText">
         <li class="footerLink"><a href="#">Mention légale</a></li>
@@ -133,6 +199,8 @@
       </div>
       <p class="copyright">© Evaneas</p>
     </footer>
+    
+    <script src="../src/scripts/faq.js"></script>
   </body>
 
 </html>
