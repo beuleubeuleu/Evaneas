@@ -2,13 +2,15 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--third);
     padding: 20px ;
 }
-ul {
+.nav-link {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    gap: 30px;
+    gap: 20px;
     list-style: none;
 }
 a {
