@@ -1,0 +1,36 @@
+footer {
+  background: var(--third);
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+
+.footerText {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+.footerLink a {
+  color: var(--first);
+  text-decoration: none;
+}
+
+.footerLink a:hover {
+  text-decoration: underline;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+}
+
+.copyright {
+  text-align: center;
+
+}
