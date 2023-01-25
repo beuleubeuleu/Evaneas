@@ -1,0 +1,48 @@
+.container-faq {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.faq {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: min(800px, 100%);
+}
+
+ul  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+span {
+    display: none;
+}
+
+.open span {
+    min-height: 50px;
+    padding: 10px;
+    display: block;
+    background-color: var(--third);
+}
+button img {
+    width: 20px;
+}
+button {
+    border: none;
+    background-color: var(--first);
+    transition: 0.33s;
+}
+.open button {
+    transform:rotateX(180deg);
+    
+
+}
