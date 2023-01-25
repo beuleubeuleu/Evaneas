@@ -9,12 +9,16 @@
     align-items: center;
     flex-direction: column;
     width: min(800px, 100%);
+    padding: 10px 0;
 }
 
-ul  {
+.faq ul  {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+.faq li {
+    list-style: none;
 }
 
 .question {
@@ -22,7 +26,9 @@ ul  {
     justify-content: space-between;
     border-bottom: 1px solid black;
 }
-
+.question p{
+    padding: 10px ;
+}
 span {
     display: none;
 }
