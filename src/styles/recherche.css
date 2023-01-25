@@ -9,6 +9,9 @@
 }
 
 #searchbar {
-  outline:none;
+  outline: 1px solid var(--primary);
   padding: .3em;
+  border-radius: 3px;
+  border:none;
+  box-shadow : 0 0 8px var(--primary);
 }
