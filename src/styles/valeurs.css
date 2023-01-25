@@ -1,0 +1,14 @@
+.valeurs {
+  background : var(--third);
+  height: 150px;
+
+  display : flex;
+  justify-content : space-around;
+  align-items : center;
+}
+
+.valeur__container {
+  font-size : 16px;
+  padding: 1rem;
+  max-width: 15%;
+}
