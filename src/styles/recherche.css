@@ -1,0 +1,14 @@
+.recherche {
+  height          : 250px;
+  background      : url("/images/nuages-evaneas.jpeg") no-repeat center;
+  background-size : cover;
+
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+}
+
+#searchbar {
+  outline:none;
+  padding: .3em;
+}
